@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from "react";
+import bg from "./imgs/mapa.png";
+
+export default function App(){
+  return(
+    <div style={{backgroundImage: `url(${bg})`  }}>
+      <h1>LoL Random Match</h1>
+      
     </div>
-  );
+  )
 }
-
-export default App;
