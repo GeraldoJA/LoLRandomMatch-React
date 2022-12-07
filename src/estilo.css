@@ -1,0 +1,31 @@
+
+.divPrincipal{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img{
+    width:  450px;
+    height: 450px;
+}
+
+.texto{
+    color: aliceblue;
+}
+
+.divTeam01{
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.divTeam02{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+

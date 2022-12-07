@@ -1,12 +1,15 @@
 
 import React from "react";
-import bg from "./imgs/mapa.png";
+//import bg from "./imgs/mapa.png";
+import TelaMatch from "./components/TelaMatch.js";
 
 export default function App(){
+
   return(
-    <div style={{backgroundImage: `url(${bg})`  }}>
-      <h1>LoL Random Match</h1>
+    <div style={{ backgroundColor: 'black' }} >
+      { /* <div style={{backgroundImage: `url(${bg})`  }}>  */ }
       
+      <TelaMatch/>
     </div>
   )
 }
